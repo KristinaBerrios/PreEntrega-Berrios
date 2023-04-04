@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+body {
+    background-color: #1A1A1A;
+
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+h2 h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+label {
+    color: #B3B3B3;
+}
+
+body {
+    background-color: #262525;
+
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+h2 h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+
+
+label {
+    color: #B3B3B3;
+}
+
+header img{
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+footer ul li a:hover {
+    color: #B3B3B3;
+    text-decoration: underline;
+    transform: scale(1.2);
+  }
+
+.botonera {
+    background-color: black;
+
+}
+
+.botonera img{
+    width: 100px;
+}
+
+.button img{
+    width: 70px;
+}
+
+.botonera nav ul li a:hover{
+    color: #B3B3B3;
+    text-decoration: underline;
+}
+
+.botonera ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+.bg-button{
+    border-color:white
+}
+
+.bg-transparent-30{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.card-text{
+    color: white;
+}
+  
+.bg-footer {
+    background-color:black
+  }
+
+  .footer {
+    height: 40%;
+  }
+  
+  .footer-text{
+    color:white;
+  }
+
+.footer-text-decoration{
+    text-decoration: none;
+  }
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;}
+
+    .carousel-caption h3 {
+        color: black;
+      }
+      
+      .carousel-margin {
+        margin-bottom: 5%;
+        padding-bottom: 10%;
+      }
+.gallery-margin {
+    padding-bottom: 15%;
+}
+      .form-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .form-container input {
+        background-color: transparent;
+        border: white;
+        border-radius: 5px;
+      }
+    
+      .form-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+      
+      .form-group {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .form-submit {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: white;
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.3s ease;
+        background-color: transparent;
+      }
+      
+      
+      .form-submit:hover {
+        color: #B3B3B3;
+        text-decoration: underline
+      }
+      
+      @media screen and (max-width: 767px) {
+        .form-row {
+          grid-template-columns: 1fr;
+        }
+      }
+      
+      .form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group textarea {
+    width: 100%;
+  }
+}
