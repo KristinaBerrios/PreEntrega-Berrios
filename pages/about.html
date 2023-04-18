@@ -1,124 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/favicon-20.png" type="image/x-icon">
-    <title>Black Penguin Studio - Multimedial Design</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Black Penguin Studio - Multimedia Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-
-<!--nav bar-->
+</head>
 
 <body>
-    <header>
-        <nav>
-            <a href="../index.html">
-                <img src="../img/logo-21.png" alt="Black Penguin Studio">
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg botonera">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/black-penguin-logo.svg" alt="Black Penguin logo">
             </a>
-            <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                <li>
-                    <a href="projects.html">Projects</a>
-                </li>
-                <li>
-                    <a href="careers.html">Careers</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
+
+            <!--Burger Btn-->
+
+            <button class="navbar-toggler button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!--  <span class="navbar-toggler-icon"></span>-->
+                <img src="img/icons/burger-button-30.svg" alt="nav button">
+            </button>
+
+            <!--Menu-->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/projectspenguin.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/careers.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--ends nav-->
+
+    <header>
+        <img src="img/header-home.png" alt="">
     </header>
 
-<!--us-->
-
-    <main >
-        <section>
-                <img src="../img/black-penguin-about.png" alt="black penguin photo" class="blackPenguin">
-            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Amet blanditiis odio praesentium deserunt. Illo
-                possimus obcaecati fuga, est harum, earum qui ipsum modi quia
-                perspiciatis ut, facilis ducimus..
-            </p>
-        </section>
-
-        <section>
-            <h2>Our team</h2>
-            <div class="parrafo">
-                <img src="../img/profile-picture.png" alt="profile picture">
-                <h3>Martina Bianchini</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
-                    culpa fugit maxime quaerat aliquam est ab consectetur minima quas reiciendis</p>
+    <!--main-->
+        <header>
+          <h1>About Us</h1>
+        </header>
+        <main>
+            <div class="container">
+                <div class="about-section">
+                    <div class="gallery">
+                        <img src="../img/black-penguin-about.png"alt="Gallery Image">
+                    </div>
+                    <div class="description">
+                        <h2>Black Penguin Studio</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quis metus eget malesuada. In vulputate velit ac urna consequat, sit amet semper eros tincidunt. Aenean tempor tellus vel semper placerat. Fusce tristique lectus et dui dapibus, id sodales risus posuere. Etiam blandit felis in lectus auctor faucibus.</p>
+                    </div>
+                </div>
+                <div class="cards-section">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quis metus eget malesuada.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quis metus eget malesuada.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Card 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quis metus eget malesuada.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="parrafo">
-                <img src="../img/profile-picture-1.png" alt="profile picture">
-                <h3>Carlos Manizales</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
-                    culpa fugit maxime quaerat aliquam est ab consectetur minima quas reiciendis</p>
-            </div>
-            <div class="parrafo">
-                <img src="../img/profile-picture-2.png" alt="profile picture">
-                <h3>Francesca Uturrier</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
-                    culpa fugit maxime quaerat aliquam est ab consectetur minima quas reiciendis</p>
-            </div>
-        </section>
-    </main>
-  <!--footer-->
-    <footer>
-        <div>
-            <h3 class="contenedor">Follow us</h3>
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="http://www.instagram.com" target="_blank">
-                        <img src="../img/icons/instagram.png" alt="instagram">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.facebook.com" target="_blank">
-                        <img src="../img/icons/facebook.png" alt="facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="http://www.linkedin.com" target="_blank">
-                        <img src="../img/icons/linkedin.png" alt="linkedin">
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            Black Penguin Studio 2023©
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="../pages/about.html">About</a>
-                </li>
-                <li>
-                    <a href="../pages/projects.html">Projects</a>
-                </li>
-                <li>
-                    <a href="../pages/careers.html">Careers</a>
-                </li>
-                <li>
-                    <a href="../pages/contact.html">Contact</a>
-                </li>
-            </ul>
+        </main>
 
+
+    <!--Footer-->
+    <footer class="bg-footer text-white">
+        <div class="container py-5">
+            <div class="row">
+             
+
+                <div class="col-md-4 text-center text-md-left">
+                    <h3>Follow Us</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="www.facebook.com">
+                                <svg viewBox="0 0 24 24" width="24" height="24">
+                                    <use xlink:href="img/icons/icon-facebook.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="www.linkedin.com">
+                                <svg viewBox="0 0 24 24" width="24" height="24">
+                                    <use xlink:href="img/icons/icon-linkedin.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="www.instagram.com">
+                                <svg viewBox="0 0 24 24" width="24" height="24">
+                                    <use xlink:href="img/icons/icon-instagram.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--Contact info-->
+
+                <div class="col-md-4 text-center">
+                    <h3>Get In Touch</h3>
+                    <ul class="list-unstyled">
+                        <li>Email: info@website.com</li>
+                        <li>Phone: +1-123-456-7890</li>
+                        <li>Address: 123 Main Street, Anytown, USA</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center text-md-right">
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white footer-text-decoration">Home</a></li>
+                        <li><a href="pages/about.html" class="text-white footer-text-decoration">About</a></li>
+                        <li><a href="pages/projects.html" class="text-white footer-text-decoration">Projects</a></li>
+                        <li><a href="pages/careers.html" class="text-white footer-text-decoration">Careers</a></li>
+                        <li><a href="pages/contact.html" class="text-white footer-text-decoration">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
